@@ -1,0 +1,68 @@
+
+
+
+.detail-section{
+  font-family: Arial;
+  color: white;
+  
+  height: 50vh
+}
+
+.header-section-text{
+  height:50%; 
+  width: 90%; 
+  margin: 50% auto 0 auto; 
+  border: 3px solid white;
+  border-radius: 2.5%;
+  align: center;
+}
+
+.header-section-text p{
+  
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-family: Arial;
+  font-size: 48px;
+  text-align: center;
+}
+
+.footer{
+  background-color: #333;
+  
+  font-family: PT Sans, Arial;
+  color: white;
+}
+
+.col-md-4{
+background-size: cover;
+}
+
+.col-md-4 a{
+  text-decoration:none;
+}
+
+.header-section-text img{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 75%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-section-text:hover img{
+  display:none;
+}
+
+.header-section-text p{
+  display:none;
+}
+
+.header-section-text:hover p{
+  display:block;
+}
+
+
